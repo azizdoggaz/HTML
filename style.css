@@ -1,0 +1,30 @@
+h2{
+    font-family: Arial; 
+    font-size: larger;
+    color: rgb(255, 0, 0);
+}
+h2::before{
+    content: " ➜";
+    color: black;
+    margin: 0px 20px;
+}
+                        /*h2 style*/
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: bold;
+
+}
+h1::before{
+    content: " ➜";
+    color: rgb(255, 0, 0);
+    margin: 50px ;
+}
+                        /*h1 style*/
+a{
+    background-color: aqua;
+    font-size: 25px;
+}
+                        /*a style */
+body{
+    background-color: pink;
+}
