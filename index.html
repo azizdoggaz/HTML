@@ -6,65 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="asset/peach.png">
     <title>HTML</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-        
-        li a:hover {
-          background-color: #111;
-        }
-        </style>
-    
-        
-        
+    <link rel="stylesheet" href="style.css">   
+
 </head>
 <body>
 <header>
     <nav>
         <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#work">work</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a class="active" ></a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Work">Work</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a> </li>
           </ul>
 
     </nav>
 </header>
 <h1>Porfolio</h1>
-<main>
-    <section id="home">
-        <h2>Home</h2>
-       <p><strong>my name aziz student</strong></p>
+<html>
+    <section id="About">
+        <h2>About :</h2>
+       <span><strong>my name aziz student in Three alfa formation</strong></span>
        <dl>
-        <dt>skills</dt>
-        <dd><strong>gamer</strong></dd>
+        <dt>skills :</dt>
+        <dd><strong>Gamer</strong></dd>
+        <dd><strong>Business </strong></dd>
        </dl>
        <dl>
-        <dt>softskills</dt>
-        <dd>communication</dd>
+        <dt>softskills : </dt>
+        <dd><strong>Comunication</strong></dd>
+        <dd><strong>Trading</strong></dd>
        </dl>
        </section>
     
-       <section id="work">
-        <h2>Work</h2>
+       <section id="Work">
+        <h2>Work :</h2>
         <table border="1">
             <tr>
                 <th>feild</th>
@@ -88,15 +65,40 @@
         </table>
     </section>
 
-    <section id="about">
-        <h2>about</h2>
+    <section id="Home">
+        <h2>Home :</h2>
         <img src="aaa.jpg" alt="logo">
     </section>
 
-    <section id="service">
-        <h2>service</h2>
+    <section id="Service">
+        <h2>Service :</h2>
         <iframe width="560" height="400"
         src="https://www.youtube.com/embed/ArRmu6-txyw?si=H5sKYYG6-zJtcD8d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     </section>
-    
+
+    <section id="Contact">
+        <h2>Contact :</h2>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="Password">Password:</label><br>
+            <input type="text" id="password" name="password">
+          </form>
+    <br>
+      <button> Envoyer </button>
+    </section>
+
+
+<br>
+<br>
+    <footer> 
+        <p>&copy; 2024 Mon Site Web</p>
+
+        </footer>
+
+
+    </body>
+    </html>
